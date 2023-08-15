@@ -1,0 +1,52 @@
+#preview-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#preview-body{
+    background-color: #fafafa;
+    color: black;
+    height: 11in;
+    width: 8.5in;
+    border-radius: 20px;
+    font-family: 'Cambria';
+    margin-left: 30px;
+    padding: 1in;
+}
+
+#preview-body h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#preview-body h2{
+    font-size: 25px;
+    font-style: italic;
+}
+
+#preview-body h3{
+    font-size: 20px;
+}
+
+#preview-body p{
+    font-size: 18px;
+}
+
+
+.line{
+    height: 5px;
+    background-color: #282828;
+}
+
+.submit-btn{
+    margin-top: 5rem;
+    height: 10vh;
+    width: 50%;
+    background-color: rgb(175, 207, 175);
+    font-size: 2rem;
+    color: #282828;
+}
+
+.submit-btn:hover{
+    background-color: rgb(98, 187, 98);
+}

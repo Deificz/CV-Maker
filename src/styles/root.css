@@ -1,9 +1,9 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto';
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #5d6e54;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,3 +12,48 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body{
+  margin: 0;
+}
+
+/*HEADER SECTION*/
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: 0px 10px 50px rgb(214, 214, 214);
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-bottom: 3rem;
+  height: 8vh;
+
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.img-logo{
+  height: 4rem;
+  width: auto;
+}
+
+#header h1{
+  color: white;
+  margin-left: 1rem ;
+  font-size: 2rem;
+}
+#header h1 span{
+  font-size: .7em;
+}
+
+/* MAIN BODY */
+#main-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
