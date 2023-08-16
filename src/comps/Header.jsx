@@ -6,7 +6,7 @@ export default function Header() {
         <section id="header">
             <div className="logo">
                 <img className="img-logo" src={imgLogo} alt="" />
-                <h1>CV Maker<span> by Deificz</span></h1>
+                <h1>Resume Builder<span> by Deificz</span></h1>
             </div>
         </section>
     )

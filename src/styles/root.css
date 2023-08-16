@@ -43,12 +43,13 @@ body{
 }
 
 #header h1{
-  color: white;
-  margin-left: 1rem ;
+  color: palegoldenrod;
+  margin-left: .5rem ;
   font-size: 2rem;
 }
 #header h1 span{
   font-size: .7em;
+  color: #fafafa;
 }
 
 /* MAIN BODY */

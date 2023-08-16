@@ -18,15 +18,27 @@ h1{
     text-align: center;
   }
   
+#editor-section h1{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+#editor-section h1:hover{
+  
+  color: palegoldenrod;
+}
 .row{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    color: palegoldenrod;
   }
   
 label{
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
+    
   }
   
 input {
@@ -39,25 +51,12 @@ input {
     outline: none;
     padding: .2rem .5rem;
     transition: all 0.2s ease-in-out;
-  }
-  
-button{
-    width: 100%;
-    height: 40px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    border-radius: 20px;
-    border: none;
+    z-index: 0;
   }
 
-button:hover{
-  background-color:  #e1e1e1;
-  color: #020202;
-  border: 3px solid #020202;
-}
   
 textarea{
-    width: 70%;
+    width: 100%;
     margin-bottom: 1.5rem;
   }
 
@@ -114,3 +113,7 @@ input::placeholder{
     text-align: center;
 }
   
+i{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

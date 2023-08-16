@@ -1,6 +1,6 @@
 # CV Maker
 
-This is a CV/Resume Maker Web App wherein you can build it with ease.
+This is a Simple Resume Maker Web App wherein you can build it with ease.
 
 Tech stack used:
   -  HTML

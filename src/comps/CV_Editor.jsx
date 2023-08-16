@@ -4,18 +4,33 @@ import Experience from './Exp_info'
 import '../styles/editor.css'
 
 export default function Editor() {
+    const {renderPersonal, firstName, lastName, email, phone} = Personal();
+    const {renderEduc, school, program, graduation } = Education();
+    const {renderExp, companyA, positionA, responsibilityA, startA, endA, 
+           companyB, positionB, responsibilityB, startB, endB} = Experience();
 
-    return(
+    return{
+        firstName, 
+        lastName, 
+        email, 
+        phone,
+        school,
+        program,
+        graduation,
+        companyA, positionA, responsibilityA, startA, endA, 
+        companyB, positionB, responsibilityB, startB, endB,
+        renderEditor: (
         <section id='editor-section'>
             <div className='personal-info'>
-                <Personal />
+                {renderPersonal}
             </div>
             <div className='educ-info'>
-                <Education />
+                {renderEduc}
             </div>
             <div className='exp-info'>
-                <Experience />
+                {renderExp}
             </div>
         </section>
-    )
+        )
+    }
 }
