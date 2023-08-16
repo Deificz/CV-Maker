@@ -7,3 +7,4 @@ Tech stack used:
   -  CSS
   -  ReactJS
   -  Vite
+  -  jsPDF
