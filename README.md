@@ -1,4 +1,4 @@
-# CV Maker
+# Resume Builder
 
 This is a Simple Resume Maker Web App wherein you can build it with ease.
 
