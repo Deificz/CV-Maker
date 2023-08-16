@@ -8,3 +8,5 @@ Tech stack used:
   -  ReactJS
   -  Vite
   -  jsPDF
+
+Available for Desktop only
