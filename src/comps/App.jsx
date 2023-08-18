@@ -1,6 +1,6 @@
 import Header from './Header.jsx'
-import Editor from './CV_Editor.jsx'
-import Preview from './CV_Preview.jsx'
+import Editor from '../panes/Editor/CV_Editor.jsx'
+import Preview from '../panes/Preview/CV_Preview.jsx'
 
 export default function App() {
     const {renderEditor, firstName, lastName, email, phone, 

@@ -1,7 +1,7 @@
 import Personal from './Personal_info'
 import Education from './Education_info'
 import Experience from './Exp_info'
-import '../styles/editor.css'
+import '../../styles/editor.css'
 
 export default function Editor() {
     const {renderPersonal, firstName, lastName, email, phone} = Personal();

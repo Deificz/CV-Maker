@@ -1,9 +1,9 @@
-import Editor from './CV_Editor.jsx'
-import '../styles/preview.css'
-import Personal from './Personal_info.jsx'
+import Editor from '../Editor/CV_Editor.jsx'
+import '../../styles/preview.css'
+import Personal from '../Editor/Personal_info.jsx'
 import html2canvas from 'html2canvas'
 import jsPDF from 'jspdf'
-
+    
 export default function Preview({firstName, lastName, email, phone,school, program, graduation,
                                 companyA, positionA, responsibilityA, startA, endA, 
                                 companyB, positionB, responsibilityB, startB, endB}){
