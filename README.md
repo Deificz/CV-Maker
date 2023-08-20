@@ -10,3 +10,5 @@ Tech stack used:
   -  jsPDF
 
 Available for Desktop only
+
+**Live preview:** https://deificz-resume-builder.netlify.app/
