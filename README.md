@@ -11,4 +11,4 @@ Tech stack used:
 
 Available for Desktop only
 
-**Live preview:** https://deificz-resume-builder.netlify.app/
+**Live preview:** https://deificz.github.io/Resume-Builder/
