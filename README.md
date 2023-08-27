@@ -9,4 +9,6 @@ Tech stack used:
   -  Vite
   -  jsPDF
 
-**Live preview:** https://deificz.github.io/Resume-Builder/
+#
+
+### **LIVE PREVIEW:** https://deificz.github.io/Resume-Builder/
